@@ -1,0 +1,102 @@
+:root {
+    --white-color: #fff;
+    --ultimate-gray-color: #959A9C;
+    --illuminating-color: #f8d948;
+    --black-color: #000;
+    --light-gray-color: #eed;
+    --yo-color: #eecc34;
+    --gray-color: #b1b0b0;
+  }
+
+  body {
+    box-sizing: border-box;
+    background-color: #fff;
+  }
+  
+
+  .content {
+    margin: 20px auto;
+    width: 1024px;
+    font-size: 18px;
+    line-height: 1.5;
+    display: flex;
+  }
+
+  .content2 {
+    margin: 20px auto;
+    width: 960px;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: var(--light-gray-color);
+    display: flex;
+  }
+
+  .left-content {
+    width: 42%;
+    color: var(--ultimate-gray-color);
+    background-color: var(--illuminating-color);
+  }
+
+  .center-photo {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+   
+
+  .right-content {
+    width: 58%;
+    padding: 40px;
+  }
+
+  header h1 {
+    line-height: 1;
+  }
+
+  header h3 {
+    line-height: 0.5;
+    letter-spacing: 2px;
+    font-weight: normal;
+  } 
+
+  main h3 {
+    width: auto;
+    margin: 40px auto 20px;
+    padding: 5px 20px;
+    text-align: justify;
+    letter-spacing: 2px;
+    color: #ffffff;
+    background-color: var(--yo-color);
+  }
+
+  .profile {
+    width: 100%;
+    margin: 100px 0px;
+    padding: 0.1px 20px;
+    text-align: justify;
+    letter-spacing: 2px;
+    color: #ffffff;
+    background-color: var(--gray-color);
+  }
+
+  .hobby {
+    width: 100%;
+    margin: 20px 0px;
+    padding: 0.1px 20px;
+    text-align: justify;
+    letter-spacing: 2px;
+    color: #ffffff;
+    background-color: var(--gray-color);
+  }
+
+  .characteristic {
+    width: 100%;
+    margin: 20px 0px;
+    padding: 0.1px 20px;
+    text-align: justify;
+    letter-spacing: 2px;
+    color: #ffffff;
+    background-color: var(--gray-color);
+  }
