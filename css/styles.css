@@ -6,62 +6,61 @@
     --light-gray-color: #eed;
     --yo-color: #eecc34;
     --gray-color: #b1b0b0;
-  }
+}
 
-  body {
+body {
     box-sizing: border-box;
     background-color: #fff;
-  }
-  
+}
 
-  .content {
+.content {
     margin: 20px auto;
     width: 1024px;
     font-size: 18px;
     line-height: 1.5;
     display: flex;
-  }
+}
 
-  .content2 {
+.content2 {
     margin: 20px auto;
     width: 960px;
     font-size: 18px;
     line-height: 1.5;
     background-color: var(--light-gray-color);
     display: flex;
-  }
+}
 
-  .left-content {
+.left-content {
     width: 42%;
     color: var(--ultimate-gray-color);
     background-color: var(--illuminating-color);
-  }
+}
 
-  .center-photo {
+.center-photo {
     display: block;
     margin-bottom: 20px;
     margin-top: 20px;
     margin-right: auto;
     margin-left: auto;
-  }
-   
+}
 
-  .right-content {
+.right-content {
     width: 58%;
     padding: 40px;
-  }
+    padding-left: 0px;
+}
 
-  header h1 {
+header h1 {
     line-height: 1;
-  }
+}
 
-  header h3 {
+header h3 {
     line-height: 0.5;
     letter-spacing: 2px;
     font-weight: normal;
-  } 
+}
 
-  main h3 {
+main h3 {
     width: auto;
     margin: 40px auto 20px;
     padding: 5px 20px;
@@ -69,19 +68,34 @@
     letter-spacing: 2px;
     color: #ffffff;
     background-color: var(--yo-color);
-  }
+}
 
-  .profile {
+.contact li {
+    list-style: none;
+}
+
+.contact a {
+    text-decoration: none;
+    color: var(--dark-gray-color);
+    list-style: none;
+}
+
+.padding-wrapper {
+    padding-left: 40px;
+}
+
+.profile {
     width: 100%;
-    margin: 100px 0px;
+    margin: 90px 0px;
+    margin-bottom: 20px;
     padding: 0.1px 20px;
     text-align: justify;
     letter-spacing: 2px;
     color: #ffffff;
     background-color: var(--gray-color);
-  }
+}
 
-  .hobby {
+.hobby {
     width: 100%;
     margin: 20px 0px;
     padding: 0.1px 20px;
@@ -89,9 +103,25 @@
     letter-spacing: 2px;
     color: #ffffff;
     background-color: var(--gray-color);
-  }
+}
 
-  .characteristic {
+.lr {
+    width: 540px;
+    font-size: 18px;
+    line-height: 1.5;
+    display: flex;
+}
+
+.left-hobby {
+    width: 25%;
+}
+
+.right-hobby {
+    width: 75%;
+    font-style: italic;
+}
+
+.about_me {
     width: 100%;
     margin: 20px 0px;
     padding: 0.1px 20px;
@@ -99,4 +129,4 @@
     letter-spacing: 2px;
     color: #ffffff;
     background-color: var(--gray-color);
-  }
+}
