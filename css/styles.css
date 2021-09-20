@@ -1,11 +1,13 @@
 :root {
     --white-color: #fff;
-    --ultimate-gray-color: #959A9C;
+    --ultimate-gray-color: #959a9c;
     --illuminating-color: #f8d948;
     --black-color: #000;
     --light-gray-color: #eed;
     --yo-color: #eecc34;
     --gray-color: #b1b0b0;
+    --dark-gray-color: #464444;
+    --footer-color: #645c5c;
 }
 
 body {
@@ -18,21 +20,16 @@ body {
     width: 1024px;
     font-size: 18px;
     line-height: 1.5;
-    display: flex;
+    box-shadow: 5px 10px 40px 10px rgba(0, 0, 0, 0.23);
 }
 
 .content2 {
-    margin: 20px auto;
-    width: 960px;
-    font-size: 18px;
-    line-height: 1.5;
-    background-color: var(--light-gray-color);
     display: flex;
 }
 
 .left-content {
     width: 42%;
-    color: var(--ultimate-gray-color);
+    color: var(--dark-gray-color);
     background-color: var(--illuminating-color);
 }
 
@@ -82,12 +79,13 @@ main h3 {
 
 .padding-wrapper {
     padding-left: 40px;
+    padding-top: 10px;
 }
 
 .profile {
     width: 100%;
-    margin: 90px 0px;
-    margin-bottom: 20px;
+    margin: 20px 0px;
+    margin-top: 100px;
     padding: 0.1px 20px;
     text-align: justify;
     letter-spacing: 2px;
@@ -112,12 +110,18 @@ main h3 {
     display: flex;
 }
 
-.left-hobby {
-    width: 25%;
+table {
+    text-align: left;
+    vertical-align: text-top;
 }
 
-.right-hobby {
-    width: 75%;
+table td {
+    height: 30px;
+    min-width: 100px;
+    vertical-align: top;
+}
+
+.italic {
     font-style: italic;
 }
 
@@ -129,4 +133,20 @@ main h3 {
     letter-spacing: 2px;
     color: #ffffff;
     background-color: var(--gray-color);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: var(--footer-color);
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
 }
